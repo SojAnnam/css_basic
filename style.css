@@ -14,8 +14,11 @@ html {
 	padding: 0;
 	}
 body { 
-	background: paleturquoise url(/home/potyi/codecool/WEB-python/css_basic/left.png) repeat-y left;
-	background-attachment: scroll;
+	background-color: paleturquoise; 
+	background-image: url(/home/potyi/codecool/WEB-python/css_basic/left.png),url(/home/potyi/codecool/WEB-python/css_basic/right.png); 
+	background-repeat:repeat-y;
+	background-position: left,right;
+	background-attachment: scroll,fixed;
 	font-family: 'Special Elite', cursive;
 	font-size:20px;
 	line-height: 1.88889;
@@ -40,7 +43,7 @@ h2 {
 	}
 
 h1{
-	background:transparent url(/home/potyi/codecool/WEB-python/css_basic/right.png) no-repeat top right;
+
 	background-size: 300px;
 	padding: 0;
 	margin:0;
@@ -66,12 +69,9 @@ h1{
 	margin: 0 0px 30px 160px;
 	text-align:left;
 	}
-.intro a:link{
-	color:lawngreen;
-	}
-.intro a:hover{
-	color:yellow
-	}
+.intro a:link{color:lawngreen;}
+.intro a:hover{color:yellow}
+
 .summary p{
 	clear: both; 
 	margin: 30px 190px 30px 60px; 
@@ -164,35 +164,16 @@ footer a:hover {
 	margin-top: 150px; 
 	width: 180px; 
 	}
-.sidebar h3.select { 
+.sidebar h3{
+	background: #272625;
+	color:salmon;
+	font-size:25px;
+	padding: 0.15rem 0.5rem 0.5rem 0.5rem;
+	margin: 0 0.15em 0 0.20rem;
+	letter-spacing: 0.05em;
+	font-family: 'Special Elite', cursive;
 
-	margin: 0px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
 	}
-.sidebar h3.archives { 
-	margin: 100px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.resources {  
-	margin: 150px 0 5px 0 30px; 
-	width:63px; 
-	height: 10px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-
 
 .sidebar ul {
 	text-decoration: none;
