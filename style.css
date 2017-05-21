@@ -15,8 +15,8 @@ html {
 	}
 body { 
 	background-color: paleturquoise; 
-	background-image: url(/home/potyi/codecool/WEB-python/css_basic/left.png),url(/home/potyi/codecool/WEB-python/css_basic/right.png); 
-	background-repeat:repeat-y;
+	background-image: url(/home/potyi/codecool/WEB-python/css_basic/left.png),url(/home/potyi/codecool/WEB-python/css_basic/robi4.png); 
+	background-repeat:repeat-y; 
 	background-position: left,right;
 	background-attachment: scroll,fixed;
 	font-family: 'Special Elite', cursive;
@@ -88,6 +88,10 @@ h1{
 	padding: 0.15rem 0.5rem;
 	color: salmon;
 	letter-spacing: 0.05em;
+	}
+.explanation p{
+	column-count: 2;
+	column-rule-style: solid;
 	}
 
 .preamble {
